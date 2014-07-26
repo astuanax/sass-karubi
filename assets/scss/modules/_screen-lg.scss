@@ -1,0 +1,9 @@
+$jacket: mobile-first;
+
+@import '../partials/footer';
+
+$jacket: screen-lg;
+	
+@media (min-width: $screen-lg-min) { 
+	@import '../partials/footer';
+}

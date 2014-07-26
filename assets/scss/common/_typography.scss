@@ -1,0 +1,21 @@
+@include jacket(mobile-first){
+	/* mobile first; define all common characteristics for your elemens here*/
+}
+
+@include jacket(screen-sm){
+	
+
+}
+
+@include jacket(screen-md){
+
+		/* Only load fonts on desktop screens and tablets*/
+		body, p, h1, h2{
+			font-family: 'Open Sans';
+		}
+	
+}
+
+@include jacket(screen-lg){
+/* desktop */	
+}

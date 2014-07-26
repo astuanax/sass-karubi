@@ -1,0 +1,38 @@
+@import 'base';
+
+// rectange
+$cs-hue-offset : 135deg;  //— Amount of hue adjustment in schemes.
+$cs-brightness-offset : 10; //— Amount of brightness adjustment in schemes.
+
+
+// Do you want to “harmonize” your color scheme with photoshop-like blendmodes?
+// See Erica Schoonmaker's technique: http://methodandcraft.com/videos/creating-harmonious-color-schemes
+// Modes:
+// null (no effect), normal, multiply, lighten, darken, darkercolor, lightercolor, lineardodge, linearburn,
+// difference, screen, exclusion, overlay, softlight, hardlight, colordodge, colorburn, linearlight,
+// vividlight, pinlight, hardmix, colorblend, dissolve, divide, hue, luminosity, saturation, subtract
+$cs-harmonize-mode    : hue;
+// What is your common harmonizing color?
+//$cs-harmonize-color   : $cs-primary;
+// How strong do you want the effect to be?
+$cs-harmonize-amount  : 5%;
+
+
+$primary: cs-primary();
+$primary-light : tint(cs-primary(),40);
+$secondary: cs-secondary(); 
+$tertiary: cs-tertiary();
+$quadrary : cs-quadrary();
+
+$black: shade($primary, 99%);
+$white : tint($primary, 99%);
+
+$gray:                   tint(set-saturation($primary, 5%),68%); 
+
+$gray-darker:            shade($gray, 50%); 
+$gray-dark:              shade($gray,30%); 
+
+$gray-light:             tint($gray, 10%); 
+$gray-lighter:           tint($gray, 13.5%);
+
+@import 'scheme';

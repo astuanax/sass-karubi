@@ -1,0 +1,9 @@
+$jacket: mobile-first;
+
+@import '../partials/footer';
+
+$jacket: screen-sm;
+
+@media (min-width: $screen-sm-min) { 
+	@import '../partials/footer';
+}

@@ -1,0 +1,13 @@
+/*
+Umbraco scpeific stylesheets for targeting document types and templats
+<body class="t<umbraco:Item field='template' runat='server' /> d<umbraco:Item field='nodeTypeAlias' runat='server' />">"
+
+Class should always start with a letter or underscore, and cannot start with numbers.
+We use <d> for document type and <t> for template.
+d<umbraco:Item field='nodeTypeAlias' runat='server' />
+t<umbraco:Item field='template' runat='server' />
+
+*/
+_dHomepage{
+		/* template specific code goes here. */
+}

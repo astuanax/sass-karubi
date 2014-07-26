@@ -1,0 +1,11 @@
+@import 'color-schemer';
+
+$cs-primary : #428bca;
+$cs-scheme : tetrad; // mono, complement, triad, tetrad, analogic, accented-analogic
+$cs-color-model: ryb;
+
+$primary: cs-primary() !default;
+$primary-light : ryb-adjust-hue(tint(set-saturation(cs-primary(), 60%),40),-8deg) !default;
+$secondary: cs-secondary() !default; 
+$tertiary: ryb-adjust-hue(set-saturation(cs-tertiary(), 100%),17deg) !default;
+$quadrary : cs-quadrary() !default;
