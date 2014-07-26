@@ -1,5 +1,11 @@
 @import 'jacket';
 @import 'colors/variation-2';
 @import 'bootstrap-variables';
-@import 'vendor/bootstrap-styles';
-@import 'modules/screen';
+@import 'vendor/bootstrap-main';
+
+$jacket: mobile-first, below-the-fold;
+@import 'modules/screen-mobile-first';
+
+@import 'modules/screen-sm';
+@import 'modules/screen-md';
+@import 'modules/screen-lg';

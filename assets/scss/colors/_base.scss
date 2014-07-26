@@ -9,3 +9,14 @@ $primary-light : ryb-adjust-hue(tint(set-saturation(cs-primary(), 60%),40),-8deg
 $secondary: cs-secondary() !default; 
 $tertiary: ryb-adjust-hue(set-saturation(cs-tertiary(), 100%),17deg) !default;
 $quadrary : cs-quadrary() !default;
+
+$black: shade($primary, 99%) !default;
+$white : tint($primary, 99%) !default;
+
+$gray:                   tint(set-saturation($primary, 5%),68%) !default;
+
+$gray-darker:            shade($gray, 50%) !default;
+$gray-dark:              shade($gray,30%) !default;
+
+$gray-light:             tint($gray, 10%) !default;
+$gray-lighter:           tint($gray, 13.5%) !default;
