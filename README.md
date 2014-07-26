@@ -15,7 +15,7 @@ generating a myriad of themes and possibilities
 
 ## Installation
 
-Sass-starterkit depends on compass, bootstrap-sass, color-schemer, autoprefixer and jacket.
+Sass-starterkit depends on **compass**, **bootstrap-sass**, **color-schemer**, **autoprefixer** and **jacket**.
 
 - bootstrap-sass: https://github.com/twbs/bootstrap-sass#installation
 	- variable and the bootstrap stylesheet are already in the project. No need to bundle it. 
