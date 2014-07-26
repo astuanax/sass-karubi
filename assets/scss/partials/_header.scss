@@ -1,10 +1,10 @@
 @include jacket(mobile-first){
-	
+		@include jacket(above-the-fold){
 .header-wrapper{
 	
 	}
 }
-
+}
 @include jacket(screen-sm){
 
 	.header-wrapper{

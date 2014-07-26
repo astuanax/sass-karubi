@@ -3,9 +3,11 @@ $jacket: mobile-first;
 @import '../partials/breadcrumb';
 @import '../partials/header'; 
 @import '../partials/navigation';
-@import '../partials/footer';
 
 @import '../common/typography';
+
+$jacket: fold;
+@import '../partials/footer';
 @import '../common/fonts';
 @import '../common/buttons';
 

@@ -12,7 +12,7 @@
     <title>Theme Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/main-fold.css" rel="stylesheet">
     <!-- Bootstrap theme -->
 
 	<script src="assets/js/holder.js"></script>
@@ -635,7 +635,17 @@
 
     </div> <!-- /container -->
 
-
+	<script>
+	      var cb = function() {
+	        var l = document.createElement('link'); l.rel = 'stylesheet';
+	        l.href = 'assets/css/main.css';
+	        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+	      };
+	      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+	          webkitRequestAnimationFrame || msRequestAnimationFrame;
+	      if (raf) raf(cb);
+	      else window.addEventListener('load', cb);
+	    </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -1,9 +1,14 @@
-$jacket: mobile-first;
-
-@import '../partials/footer';
-
 $jacket: screen-sm;
 
 @media (min-width: $screen-sm-min) { 
+	
+	@import '../partials/breadcrumb';
+	@import '../partials/header'; 
+	@import '../partials/navigation';
 	@import '../partials/footer';
+
+	@import '../common/typography';
+	@import '../common/fonts';
+	@import '../common/buttons';
+
 }

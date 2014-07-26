@@ -1,7 +1,10 @@
 @include jacket(mobile-first){
-	
-.footer-wrapper{
 
+	@include jacket(below-the-fold){
+		.footer-wrapper{
+
+			}
+		
 	}
 }
 

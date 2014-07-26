@@ -1,13 +1,11 @@
 @include jacket(mobile-first){
-	
-.footer{
-
+	@include jacket(above-the-fold){
+		.breadcrumbs-wrapper{}
 	}
 }
-
 @include jacket(screen-sm){
 
-	.footer{
+			.breadcrumbs-wrapper{
 
 	}
 	
@@ -15,7 +13,7 @@
 
 @include jacket(screen-md){
 
-	.footer{
+		.breadcrumbs-wrapper{
 
 	}
 	
@@ -23,7 +21,7 @@
 
 @include jacket(screen-lg){
 
-	.footer{
+		.breadcrumbs-wrapper{
 
 	}
 	
