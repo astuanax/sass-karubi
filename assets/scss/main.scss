@@ -3,7 +3,7 @@
 @import 'bootstrap-variables';
 @import 'vendor/bootstrap-main';
 
-$jacket: mobile-first, below-the-fold;
+$jacket: below-the-fold;
 @import 'modules/screen-mobile-first';
 
 @import 'modules/screen-sm';

@@ -1,8 +1,12 @@
 @include jacket(mobile-first){
-	
-.btn-primary{
 
+@include jacket(above-the-fold){	
+	.btn-primary{
+
+		}
 	}
+@include jacket(below-the-fold){}
+
 }
 
 @include jacket(screen-sm){

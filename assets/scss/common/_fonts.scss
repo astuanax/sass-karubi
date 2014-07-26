@@ -1,3 +1,11 @@
+@include jacket(mobile-first){
+	@include jacket(above-the-fold){
+		.fonts{
+			font-family:'Open Sans';
+		}
+		
+	}
+	@include jacket(below-the-fold){
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -58,6 +66,7 @@
   font-weight: 800;
   src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxsBo4hlZyBvkZICS3KpNonM.woff) format('woff');
 }
-
+	}
+}
 
 

@@ -1,13 +1,13 @@
-$jacket: mobile-first, above-the-fold;
+$jacket : mobile-first, "#{$jacket}";
+
+@import '../common/fonts';
+@import '../common/typography';
 
 @import '../partials/breadcrumb';
 @import '../partials/header'; 
 @import '../partials/navigation';
-@import '../common/typography';
 
-
-$jacket: below-the-fold;
+@import '../common/buttons';
 
 @import '../partials/footer';
-@import '../common/fonts';
-@import '../common/buttons';
+

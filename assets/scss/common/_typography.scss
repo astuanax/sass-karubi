@@ -1,5 +1,6 @@
 @include jacket(mobile-first){
-	/* mobile first; define all common characteristics for your elemens here*/
+	@include jacket(above-the-fold){}
+	@include jacket(below-the-fold){}
 }
 
 @include jacket(screen-sm){

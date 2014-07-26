@@ -1,4 +1,4 @@
-$jacket: mobile-first;
+$jacket: mobile-first,above-the-fold;
 
 @import '../partials/breadcrumb';
 @import '../partials/header'; 
@@ -6,7 +6,7 @@ $jacket: mobile-first;
 
 @import '../common/typography';
 
-$jacket: fold;
+$jacket: mobile-first,below-the-fold;
 @import '../partials/footer';
 @import '../common/fonts';
 @import '../common/buttons';
